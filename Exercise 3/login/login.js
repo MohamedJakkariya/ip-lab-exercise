@@ -5,7 +5,7 @@ const error_message_div = document.querySelector('.error-message');
 
 const submit_form = document.querySelector('#login_submit');
 
-submit_form.addEventListener('submit', e => {
+submit_form.addEventListener('submit', function (e) {
   e.preventDefault();
 
   error_message_div.style.color = 'red';
